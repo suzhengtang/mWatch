@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="lib/swiper/dist/css/swiper.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!--头部部分-->
+<div class="nav" style="border-bottom: 1px solid #ddd;">
+    <span>&lt;</span>
+    <h3>登录</h3>
+    <!--<span class="nav-rt">x</span>-->
+</div>
+
+<!--内容部分-->
+<div class="user">
+    <button class="active">用户登录</button>
+    <button>商家登录</button>
+</div>
+<form action="">
+    <div class="phone phone-bb">
+        <span>手机号</span>
+        <input type="text" placeholder="请输入手机号" id="phoneNum">
+    </div>
+    <div class="phone">
+        <span>密码</span>
+        <input type="text" placeholder="请输入登录密码" class="qi" id="pwd">
+    </div>
+    <div class="phone ma">
+        <span>验证码</span>
+        <input type="text" placeholder="请输入图形验证码">
+        <img src="images/login/yanzheng.png" alt="">
+    </div>
+
+    <input type="button" value="登录" id="login">
+    <a href="regist.html" class="login-regist">注册</a>
+    <a href="#">忘记密码？</a>
+</form>
+
+<!--第三方登录-->
+<div class="three">
+    <div class="top">
+        <p>使用第三方账号登录</p>
+    </div>
+    <div class="bottom">
+        <img src="images/login/qq.png" alt="">
+        <img src="images/login/weixin.png" alt="">
+    </div>
+</div>
+
+
+<script>
+    var font = window.screen.width / 10 + 'px';
+    document.getElementsByTagName('html')[0].style.fontSize = font;
+</script>
+<script src="lib/swiper/dist/js/jquery.js"></script>
+<script src="lib/swiper/dist/js/swiper.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

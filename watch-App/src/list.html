@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>订单查询</title>
+    <link rel="stylesheet" href="lib/swiper/dist/css/swiper.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!--头部部分-->
+<div class="nav">
+    <div></div>
+    <h3>订单查询</h3>
+</div>
+
+<!--banner部分-->
+<div class="bannerList">
+    <ul>
+        <li><img src="images/list/banner.png" alt=""></li>
+    </ul>
+</div>
+
+<!--内容部分-->
+<div class="contentList">
+    <input type="text" placeholder="请输入你的手机号">
+    <button>查询进度</button>
+</div>
+
+<!--标签栏-->
+<div class="footer">
+    <ul>
+        <li class="shouye">
+            <img src="images/first/shouye.png" alt="">
+            <p>我要修表</p>
+        </li>
+        <li class="list">
+            <img src="images/first/listt.png" alt="">
+            <p style="color:#746cc0">订单查询</p>
+        </li>
+        <li class="ask">
+            <img src="images/first/ask.png" alt="">
+            <p>资讯</p>
+        </li>
+        <li class="me">
+            <img src="images/first/me.png" alt="">
+            <p>个人中心</p>
+        </li>
+    </ul>
+</div>
+<!--登录界面模态框-->
+<div class="model">
+    <div class="model-bg">
+        <h3>登录表大师</h3>
+        <span class="close">X</span>
+        <input type="text" placeholder="请输入你的手机号">
+        <input type="password" placeholder="请输入登录密码">
+        <input type="password" placeholder="请输入登录密码">
+        <p><a href="mylist.html"><button>登录</button></a></p>
+        <a href="javascript:;" class="ml">注册</a>
+        <a href="javascript:;" class="mr">忘记密码？</a>
+        <img src="images/login/qq.png" alt="">
+        <img src="images/login/weixin.png" alt="">
+    </div>
+</div>
+
+
+<script>
+    <!--移动端适配-->
+    var font = window.screen.width / 10 + 'px';
+    document.getElementsByTagName('html')[0].style.fontSize = font;
+</script>
+<script src="lib/swiper/dist/js/jquery.js"></script>
+<script src="lib/swiper/dist/js/swiper.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>

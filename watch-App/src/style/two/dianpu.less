@@ -1,0 +1,64 @@
+.xx{
+  ul{
+    li{
+      background-color: #fff;
+      border-bottom: 1px solid #ddd;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      .padding(10,0);
+      .circle{
+        float: left;
+        .w(40);
+        .h(100);
+        background: url("../../images/dianpu/icon-radio.png") center center no-repeat;
+        background-size: 50%;
+      }
+      .c-active{
+        background: url("../../images/dianpu/icon-radio-A.png") center center no-repeat;
+        background-size:50%;
+      }
+      .circle-dp{
+        float: left;
+        .dp-left{
+          float: left;
+          img{
+            .w(80);
+            .mr(10);
+          }
+        }
+        .dp-right{
+          float: left;
+          p:first-child{
+            .fs(16);
+            color: #333333;
+          }
+          p:nth-child(2){
+            span{
+              display: inline-block;
+              .w(16);
+              .h(14);
+              background: url("../../images/dianpu/star-icon.png") left center no-repeat;
+              background-size: 100%;
+            }
+          }
+          p:nth-child(3){
+            .fs(8);
+            color: #ccc;
+          }
+          p:nth-child(4){
+            .fs(10);
+            color: #888;
+          }
+          p:nth-child(5){
+            .fs(10);
+            color: #746cc0;
+          }
+        }
+      }
+    }
+    li:last-of-type{
+      .mb(100);
+    }
+  }
+}
